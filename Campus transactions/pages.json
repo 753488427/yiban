@@ -1,0 +1,239 @@
+{
+	"pages": [
+		{
+			"path" : "pages/Me/user/login",
+			"style" : 
+			{
+				"navigationBarTitleText" : "登录"
+			}
+		},
+	{
+		"path" : "pages/Home/Home",
+		"style" : 
+		{
+			"navigationBarTitleText" : "首页"
+		}
+	},
+	{
+		"path" : "pages/message/message",
+		"style" : 
+		{
+			"navigationBarTitleText" : "消息"
+		}
+	},
+	{
+		"path" : "pages/Community/Community",
+		"style" : 
+		{
+			"navigationBarTitleText" : "社区"
+		}
+	},
+	{
+		"path" : "pages/Me/Me",
+		"style" : 
+		{
+			"navigationBarTitleText" : "我的"
+		}
+	},
+
+	{
+		"path" : "pages/Me/user/reg",
+		"style" : 
+		{
+			"navigationBarTitleText" : "注册"
+		}
+	},
+	{
+		"path" : "pages/message/detail",
+		"style" : 
+		{
+			"navigationBarTitleText" : "详情"
+		}
+	},
+	{
+		"path" : "pages/Release/Release",
+		"style" : 
+		{
+			"navigationBarTitleText" : "发布"
+		}
+	},
+	{
+		"path" : "pages/Home/function/search",
+		"style" : 
+		{
+			"navigationBarTitleText" : "搜索"
+		}
+	},
+	{
+		"path" : "pages/Home/function/goods_detail",
+		"style" : 
+		{
+			"navigationBarTitleText" : "商品详情"
+		}
+	},
+	{
+		"path" : "pages/Home/function/comment",
+		"style" : 
+		{
+			"navigationBarTitleText" : "评论"
+		}
+	},
+	{
+		"path" : "pages/Me/funtion/favorites",
+		"style" : 
+		{
+			"navigationBarTitleText" : "收藏"
+		}
+	},
+	{
+		"path" : "pages/Me/funtion/me_goods",
+		"style" : 
+		{
+			"navigationBarTitleText" : "我的商品"
+		}
+	},
+	{
+		"path" : "pages/Me/funtion/me_address",
+		"style" : 
+		{
+			"navigationBarTitleText" : "我的地址"
+		}
+	},
+	{
+		"path" : "pages/Me/funtion/me_revise",
+		"style" : 
+		{
+			"navigationBarTitleText" : "修改信息"
+		}
+	},
+	{
+		"path" : "pages/Release/publishing",
+		"style" : 
+		{
+			"navigationBarTitleText" : "发闲置"
+		}
+	},
+	{
+		"path" : "pages/Me/funtion/me_likes",
+		"style" : 
+		{
+			"navigationBarTitleText" : "喜欢"
+		}
+	},
+	{
+		"path" : "pages/Me/Edit/product",
+		"style" : 
+		{
+			"navigationBarTitleText" : "编辑商品"
+		}
+	},
+	{
+		"path" : "pages/Me/funtion/set",
+		"style" : 
+		{
+			"navigationBarTitleText" : "设置"
+		}
+	},
+	{
+		"path" : "pages/Home/function/user",
+		"style" : 
+		{
+			"navigationBarTitleText" : "卖家信息"
+		}
+	},
+	{
+		"path" : "pages/Me/Edit/Change_Password",
+		"style" : 
+		{
+			"navigationBarTitleText" : "修改密码"
+		}
+	},
+	{
+		"path" : "pages/Me/Edit/change_phone",
+		"style" : 
+		{
+			"navigationBarTitleText" : "手机换绑"
+		}
+	},
+	{
+		"path" : "pages/Community/funtion/publish",
+		"style" : 
+		{
+			"navigationStyle" : "custom"
+		}
+	},
+	{
+		"path" : "pages/Community/funtion/respond_detail",
+		"style" : 
+		{
+			"navigationBarTitleText" : "社区详情"
+		}
+	},
+	{
+		"path" : "pages/Me/funtion/me_orders",
+		"style" : 
+		{
+			"navigationBarTitleText" : "我的订单"
+		}
+	},
+	{
+		"path" : "pages/Home/function/billing",
+		"style" : 
+		{
+			"navigationBarTitleText" : "结算"
+		}
+	},
+	{
+		"path" : "pages/Me/funtion/me_appraise",
+		"style" : 
+		{
+			"navigationBarTitleText" : "评价"
+		}
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#d4237a",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/Home/Home",
+				"iconPath": "/static/Nav/1.png",
+				"selectedIconPath": "/static/nav/1.0.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/Community/Community",
+				"iconPath": "/static/Nav/社区.png",
+				"selectedIconPath": "/static/nav/社区 (1).png",
+				"text": "社区"
+			},
+			{
+				"pagePath": "pages/Release/Release",
+				"iconPath": "/static/nav/发布.png",
+				"text": "发布"
+			},
+			{
+				"pagePath": "pages/message/message",
+				"iconPath": "/static/nav/消息.png",
+				"selectedIconPath": "/static/nav/消息 (1).png",
+				"text": "消息"
+			},
+			{
+				"pagePath": "pages/Me/Me",
+				"iconPath": "/static/Nav/我的.png",
+				"selectedIconPath": "/static/Nav/我的 (1).png",
+				"text": "我的"
+			}
+		]
+	}
+}
