@@ -66,7 +66,7 @@ app.use((err, req, res, next) => {
     });
 });
 
-// 启动服务器
+// 启动服务器，测试
 const PORT = process.env.PORT || 8082;
 app.listen(PORT, () => {
     console.log(`服务器已启动，监听端口 ${PORT}`);
